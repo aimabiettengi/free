@@ -39,7 +39,7 @@ def checkrun():
         elif not findrun():
             print('tool is not running....')
             # open tool
-            subprocess.call('free-by-dangu.exe', shell=True)
+            os.system('run.bat')
             
 thread1 = threading.Thread(target=killrun)
 thread1.start()
