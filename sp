@@ -24,7 +24,7 @@ import pygetwindow
 
 
 def findrun():
-    return pygetwindow.getWindowsWithTitle('run')
+    return pygetwindow.getWindowsWithTitle('free-by-dangu')
 
 def killrun():
     while True:
